@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+#h4{
+   text-decoration: underline;
+   text-align: center;
+}
+.Calculator{
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    margin-left: 430px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.Calculator .input1{
+    width: 96%;
+    margin-left: 5px;
+    text-align: right;
+    padding: 10px;
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: large;
+    background-color: rgb(163, 215, 163);
+    outline: none;
+}
+table tr td input{
+    width: 72px;
+    height: 60px;
+    margin: 8px;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    border-radius: 10px;
+}
+table tr td input.btn-c{
+    width: 160px;
+    height: 60px;
+    background-color: red;
+    color: white;
+}
+table tr td input.plus{
+    width: 72px;
+    height: 140px;
+
+}
+.equal-to{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
